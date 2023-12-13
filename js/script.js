@@ -17,4 +17,5 @@ function fixTime(numero) {
     return numero;
 }
 
+updateTime();
 setInterval(updateTime, 1000);

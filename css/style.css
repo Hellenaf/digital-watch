@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@600&family=Oswald:wght@500&family=Silkscreen&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.watch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.time {
+    background-color: #d7d8dd;
+    width: 450px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 10px;
+    border: #000 solid 15px;
+    font-size: 7rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    width: 700px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 5px;
+    font-size: 2rem;
+    margin-top: 10px;
+}
